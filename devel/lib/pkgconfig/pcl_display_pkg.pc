@@ -1,0 +1,8 @@
+prefix=/home/dd/catkin_ws/devel
+
+Name: pcl_display_pkg
+Description: Description of pcl_display_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

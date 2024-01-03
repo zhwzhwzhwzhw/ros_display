@@ -1,0 +1,18 @@
+<launch>
+ <node name="play_bag" pkg="rosbag" type="play" args="--clock /home/dd/catkin_ws/all.bag" output="screen"/>
+<!-- odom display -->
+<node pkg="odom" type="odom_node" name="odom_display" launch-prefix="gnome-terminal -e"/>
+<!-- color cam display -->
+<node pkg="learning_topic" type="color_cam_display_node" name="color_cam_display_node"/>
+<!-- depth cam display -->
+<node pkg="depth_pkg" type="depth_node" name="depth_display_node"/>
+<!-- imu display -->
+<node pkg="imu_pkg" type="imu_node" name="imu_display" launch-prefix="gnome-terminal -e"/>
+<!-- pcl display -->
+<node pkg="pcl_display_pkg" type="pcl_display_node" name="pcl_display_node"/>
+<!-- gmapping and display -->
+<node pkg="gmapping" type="slam_gmapping" name="slam_gmapping"/>
+<node pkg="rviz" type="rviz" name="rviz" args="-d $(find ros_display_pkg)/rviz/ros_display.rviz"/>
+
+
+</launch>

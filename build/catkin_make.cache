@@ -1,0 +1,2 @@
+atr_pkg:depth_pkg:hello_zhao:imu_pkg:learning_topic:lidar_pkg:map_pkg:odom:pcl_display_pkg:ros_display_pkg:ros_tutorials/ros_tutorials:ros_tutorials/roscpp_tutorials:ros_tutorials/rospy_tutorials:ros_tutorials/turtlesim:slam_pkg:ssr_pkg:sst_pkg:vel_pkg:wpr_simulation
+-DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_DEVEL_PREFIX=/home/dd/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/dd/catkin_ws/install -G Unix Makefiles

@@ -1,0 +1,8 @@
+prefix=/home/dd/catkin_ws/devel
+
+Name: liu1_pkg
+Description: Description of liu1_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
